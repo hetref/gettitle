@@ -1,4 +1,4 @@
-window.addEventListener("load", (tab) => {
+window.addEventListener("load", () => {
   const gettitle = document.querySelector("#title");
   getCurrentTab().then((data) => (gettitle.innerHTML = data));
 });
