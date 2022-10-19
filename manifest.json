@@ -8,9 +8,6 @@
         "default_icon": "ic.png"
     },
     "permissions": [
-        "storage",
-        "activeTab",
-        "scripting",
         "tabs"
     ]
 }
